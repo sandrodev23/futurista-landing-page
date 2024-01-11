@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Exo", sans-serif;
+}
+
+body {
+  background-image: url(./img/bg.png);
+  background-size: cover;
+}
+header {
+  width: 80%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 100px;
+  left: 120px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+}
+header h1 {
+  margin-left: 60px;
+  color: #fff;
+  font-size: 25px;
+}
+.navegation ul {
+  display: flex;
+  gap: 2rem;
+  margin-right: 50px;
+  list-style: none;
+  margin-right: 250px;
+}
+.navegation ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.navegation img {
+  width: 80px;
+  height: 80px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-content img {
+  width: 450px;
+  height: 450px;
+  margin-top: 155px;
+  margin-left: -200px;
+}
+.content-2 {
+  width: 50%;
+  margin-left: 150px;
+  margin-top: 200px;
+}
+.content-2 h2 {
+  color: #fff;
+  font-size: 50px;
+}
+.content-2 h3 {
+  color: #fff;
+  margin-left: 70px;
+}
+.item-icons {
+  color: #fff;
+  cursor: pointer;
+}
+.content-2 .intens {
+  padding-top: 150px;
+}
